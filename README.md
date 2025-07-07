@@ -1,4 +1,4 @@
-### Executive Summary
+### Pipewire Inconsistencies:  Solution is Persistent Sinks
 
 **The Problem:** Your audio setup on Arch Linux with a KDE/Wayland desktop is unpredictable. Physical devices like your Tascam Model 12 and various synths do not reliably select their correct multi-channel profiles, and their connections (both audio and MIDI) are not persistent. Manually routing with `qpwgraph` is a temporary fix that is lost on reboot or device reconnection. You need a stable, automated system for pro audio work.
 
